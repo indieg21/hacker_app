@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px 40px;
+    background-color: #385696;
+    color: white;
+    
+}
