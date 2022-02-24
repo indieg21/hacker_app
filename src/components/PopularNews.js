@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-const PopularNews = () => {
+const PopularNews = ({ article }) => {
+  const { title, urlToImage } = article;
   return (
-    <div>PopularNews</div>
-  )
-}
-
-export default PopularNews
+    <div className="card">
+      <div className="image">
+        <img src={urlToImage} alt={title} />
+      </div>
+      <div className="hero-text">
+        <h5>{title}</h5>
+      </div>
+    </div>
+  );
+};
+export default PopularNews;

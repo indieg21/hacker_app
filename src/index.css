@@ -20,6 +20,36 @@
 
 .flex-box {
     display: flex;
-    align-items: center;
     gap: 20px;
 }
+
+.main-news {
+    width: 70%;
+  }
+  .popular-news {
+    width: 30%;
+  }
+  .image {
+    width: 40%;
+    border: 1px solid pink;
+    align-self: start;
+  }
+  .hero-text {
+    width: 60%;
+  }
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .card {
+    display: flex;
+    gap: 18px;
+  }
+  
+  span {
+    margin: 10px;
+  }
+  p {
+    margin: 10px;
+  }
