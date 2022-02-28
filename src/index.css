@@ -1,55 +1,55 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-    padding: 10px 40px;
-    background-color: #385696;
-    color: white;
-    
+  padding: 10px 40px;
+  background-color: #385696;
+  color: white;
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border: 1px solid pink;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid pink;
 }
 
 .flex-box {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .main-news {
-    width: 70%;
-  }
-  .popular-news {
-    width: 30%;
-  }
-  .image {
-    width: 40%;
-    border: 1px solid pink;
-    align-self: start;
-  }
-  .hero-text {
-    width: 60%;
-  }
-  img {
-    width: 100%;
-    object-fit: contain;
-  }
-  
-  .card {
-    display: flex;
-    gap: 18px;
-  }
-  
-  span {
-    margin: 10px;
-  }
-  p {
-    margin: 10px;
-  }
+  width: 70%;
+  padding: "6px 0";
+}
+.popular-news {
+  width: 30%;
+}
+.image {
+  width: 40%;
+  border: 1px solid pink;
+  align-self: start;
+}
+.hero-text {
+  width: 60%;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card {
+  display: flex;
+  gap: 18px;
+}
+
+span {
+  margin: 10px;
+}
+p {
+  margin: 10px;
+}

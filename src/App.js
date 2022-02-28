@@ -1,11 +1,11 @@
 import React from 'react';
-import News from './News';
+import Dashboard from './Dashboard';
 
 
 const App = () => {
   return <div className='App'>
       
-      < News />
+      < Dashboard />
   </div>;
 };
 
